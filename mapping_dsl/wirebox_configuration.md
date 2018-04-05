@@ -6,8 +6,8 @@ The configuration binder has the same methods as the implicit structures that ca
 |Method Signature|Description|
 |--|--|
 |<b>cacheBox</b>([configFile],[cacheFactory],[enabled],[classNamespace])|The method used to configure the injector's CacheBox integration. <b>Ignored in an application context|
-|listener</b>(class,[properties],[name])|The method used to register a new listener within the injector's event manager|
-|logBoxConfig</b>(config)|The method used to tell the injector which <a href="wiki/LogBox.cfm">LogBox</a> configuration file to use for logging operations. <b>Ignored in an application context|
+|<b>listener</b>(class,[properties],[name])|The method used to register a new listener within the injector's event manager|
+|<b>logBoxConfig</b>(config)|The method used to tell the injector which <a href="wiki/LogBox.cfm">LogBox</a> configuration file to use for logging operations. <b>Ignored in an application context|
 |<b>mapDSL</b>(namespace,path)|The method used to register a new DSL annotation namespace with a DSL Builder object|
 |<b>mapScope</b>(annotation,path)|The method used to register a new custom scope in this injector|
 |<b>parentInjector</b>(injector)|Register a CFC reference to be the parent injector for the configuring injector|
